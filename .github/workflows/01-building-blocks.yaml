@@ -13,9 +13,9 @@ jobs:
         steps:
             - name: Failed Step
               run: |
-                echo "Its failed"
-                exit 1
-            - name: Say good byr
+                echo "Its success"
+                exit 0
+            - name: Say good bye
               run: echo "good bye"
 
         
